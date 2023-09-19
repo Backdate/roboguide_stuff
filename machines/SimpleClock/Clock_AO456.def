@@ -1,0 +1,622 @@
+<Machine Version="6.4" SourceID="57497" Kind="3" Name="MyNewClock" ScaleY="0.1" Color="&amp;HFFFFFF" LocationX="1000.000" LocationY="1000.000" LocationZ="3000.000" DetectCollisions="0" JointNum="0" AxisDirection="-1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+  <Groups/>
+  <ImgFilePath0>
+    <CADFile OptimizeForSpeed="-1"/>
+  </ImgFilePath0>
+  <ImgFilePath1>
+    <CADFile OptimizeForSpeed="-1"/>
+  </ImgFilePath1>
+  <ImgFilePath2>
+    <CADFile OptimizeForSpeed="-1"/>
+  </ImgFilePath2>
+  <ImgFilePath3>
+    <CADFile OptimizeForSpeed="-1"/>
+  </ImgFilePath3>
+  <ImgFilePath4>
+    <CADFile OptimizeForSpeed="-1"/>
+  </ImgFilePath4>
+  <ImgFilePath5>
+    <CADFile OptimizeForSpeed="-1"/>
+  </ImgFilePath5>
+  <Targets/>
+  <PlugIns>
+    <HandlingPRO.HPCMachineLink/>
+  </PlugIns>
+  <Links>
+    <Link SourceID="57498" Kind="3" Name="SekundenZeiger" ScaleX="0.02" ScaleY="0.5" Color="&amp;HFF" Locked="-1" LocationY="-220.000" LocationZ="100.000" JointNum="2" AxisLocked="-1" AxisLocationW="-90.000" MotionControlType="1" IOSpeed="10000" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+      <ImgFilePath0>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath0>
+      <ImgFilePath1>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath1>
+      <ImgFilePath2>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath2>
+      <ImgFilePath3>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath3>
+      <ImgFilePath4>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath4>
+      <ImgFilePath5>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath5>
+      <Targets/>
+      <IOMaps>
+        <MachineLinkIOMap Name="EAMAP0" ControllerNum="1" IOTag="AO" IONum="6"/>
+        <MachineLinkIOMap Name="EAMAP1" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="1" LocationValue="6"/>
+        <MachineLinkIOMap Name="EAMAP2" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="2" LocationValue="12"/>
+        <MachineLinkIOMap Name="EAMAP3" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="3" LocationValue="18"/>
+        <MachineLinkIOMap Name="EAMAP4" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="4" LocationValue="24"/>
+        <MachineLinkIOMap Name="EAMAP5" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="5" LocationValue="30"/>
+        <MachineLinkIOMap Name="EAMAP6" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="6" LocationValue="36"/>
+        <MachineLinkIOMap Name="EAMAP7" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="7" LocationValue="42"/>
+        <MachineLinkIOMap Name="EAMAP8" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="8" LocationValue="48"/>
+        <MachineLinkIOMap Name="EAMAP9" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="9" LocationValue="54"/>
+        <MachineLinkIOMap Name="EAMAP10" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="10" LocationValue="60"/>
+        <MachineLinkIOMap Name="EAMAP11" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="11" LocationValue="66"/>
+        <MachineLinkIOMap Name="EAMAP12" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="12" LocationValue="72"/>
+        <MachineLinkIOMap Name="EAMAP13" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="13" LocationValue="78"/>
+        <MachineLinkIOMap Name="EAMAP14" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="14" LocationValue="84"/>
+        <MachineLinkIOMap Name="EAMAP15" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="15" LocationValue="90"/>
+        <MachineLinkIOMap Name="EAMAP16" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="16" LocationValue="96"/>
+        <MachineLinkIOMap Name="EAMAP17" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="17" LocationValue="102"/>
+        <MachineLinkIOMap Name="EAMAP18" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="18" LocationValue="108"/>
+        <MachineLinkIOMap Name="EAMAP19" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="19" LocationValue="114"/>
+        <MachineLinkIOMap Name="EAMAP20" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="20" LocationValue="120"/>
+        <MachineLinkIOMap Name="EAMAP21" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="21" LocationValue="126"/>
+        <MachineLinkIOMap Name="EAMAP22" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="22" LocationValue="132"/>
+        <MachineLinkIOMap Name="EAMAP23" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="23" LocationValue="138"/>
+        <MachineLinkIOMap Name="EAMAP24" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="24" LocationValue="144"/>
+        <MachineLinkIOMap Name="EAMAP25" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="25" LocationValue="150"/>
+        <MachineLinkIOMap Name="EAMAP26" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="26" LocationValue="156"/>
+        <MachineLinkIOMap Name="EAMAP27" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="27" LocationValue="162"/>
+        <MachineLinkIOMap Name="EAMAP28" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="28" LocationValue="168"/>
+        <MachineLinkIOMap Name="EAMAP29" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="29" LocationValue="174"/>
+        <MachineLinkIOMap Name="EAMAP30" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="30" LocationValue="180"/>
+        <MachineLinkIOMap Name="EAMAP31" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="31" LocationValue="186"/>
+        <MachineLinkIOMap Name="EAMAP32" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="32" LocationValue="192"/>
+        <MachineLinkIOMap Name="EAMAP33" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="33" LocationValue="198"/>
+        <MachineLinkIOMap Name="EAMAP34" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="34" LocationValue="204"/>
+        <MachineLinkIOMap Name="EAMAP35" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="35" LocationValue="210"/>
+        <MachineLinkIOMap Name="EAMAP36" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="36" LocationValue="216"/>
+        <MachineLinkIOMap Name="EAMAP37" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="37" LocationValue="222"/>
+        <MachineLinkIOMap Name="EAMAP38" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="38" LocationValue="228"/>
+        <MachineLinkIOMap Name="EAMAP39" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="39" LocationValue="234"/>
+        <MachineLinkIOMap Name="EAMAP40" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="40" LocationValue="240"/>
+        <MachineLinkIOMap Name="EAMAP41" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="41" LocationValue="246"/>
+        <MachineLinkIOMap Name="EAMAP42" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="42" LocationValue="252"/>
+        <MachineLinkIOMap Name="EAMAP43" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="43" LocationValue="258"/>
+        <MachineLinkIOMap Name="EAMAP44" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="44" LocationValue="264"/>
+        <MachineLinkIOMap Name="EAMAP45" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="45" LocationValue="270"/>
+        <MachineLinkIOMap Name="EAMAP46" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="46" LocationValue="276"/>
+        <MachineLinkIOMap Name="EAMAP47" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="47" LocationValue="282"/>
+        <MachineLinkIOMap Name="EAMAP48" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="48" LocationValue="288"/>
+        <MachineLinkIOMap Name="EAMAP49" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="49" LocationValue="294"/>
+        <MachineLinkIOMap Name="EAMAP50" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="50" LocationValue="300"/>
+        <MachineLinkIOMap Name="EAMAP51" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="51" LocationValue="306"/>
+        <MachineLinkIOMap Name="EAMAP52" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="52" LocationValue="312"/>
+        <MachineLinkIOMap Name="EAMAP53" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="53" LocationValue="318"/>
+        <MachineLinkIOMap Name="EAMAP54" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="54" LocationValue="324"/>
+        <MachineLinkIOMap Name="EAMAP55" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="55" LocationValue="330"/>
+        <MachineLinkIOMap Name="EAMAP56" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="56" LocationValue="336"/>
+        <MachineLinkIOMap Name="EAMAP57" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="57" LocationValue="342"/>
+        <MachineLinkIOMap Name="EAMAP58" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="58" LocationValue="348"/>
+        <MachineLinkIOMap Name="EAMAP59" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="59" LocationValue="354"/>
+        <MachineLinkIOMap Name="EAMAP60" ControllerNum="1" IOTag="AO" IONum="6" TriggerValue="60" LocationValue="360"/>
+      </IOMaps>
+      <PlugIns>
+        <HandlingPRO.HPCMachineLink/>
+      </PlugIns>
+      <MachineYaXb ParamA="0"/>
+    </Link>
+    <Link SourceID="57560" Kind="3" Name="MinutenZeiger" ScaleX="0.03" ScaleY="0.4" Color="&amp;H808080" Locked="-1" LocationY="-220.000" LocationZ="55.000" AxisVisible="0" AxisLocationW="-90.000" MotionControlType="1" IOSpeed="10000" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+      <ImgFilePath0>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath0>
+      <ImgFilePath1>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath1>
+      <ImgFilePath2>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath2>
+      <ImgFilePath3>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath3>
+      <ImgFilePath4>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath4>
+      <ImgFilePath5>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath5>
+      <Targets/>
+      <IOMaps>
+        <MachineLinkIOMap Name="EAMAP0" ControllerNum="1" IOTag="AO" IONum="5"/>
+        <MachineLinkIOMap Name="EAMAP1" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="1" LocationValue="6"/>
+        <MachineLinkIOMap Name="EAMAP2" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="2" LocationValue="12"/>
+        <MachineLinkIOMap Name="EAMAP3" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="3" LocationValue="18"/>
+        <MachineLinkIOMap Name="EAMAP4" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="4" LocationValue="24"/>
+        <MachineLinkIOMap Name="EAMAP5" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="5" LocationValue="30"/>
+        <MachineLinkIOMap Name="EAMAP6" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="6" LocationValue="36"/>
+        <MachineLinkIOMap Name="EAMAP7" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="7" LocationValue="42"/>
+        <MachineLinkIOMap Name="EAMAP8" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="8" LocationValue="48"/>
+        <MachineLinkIOMap Name="EAMAP9" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="9" LocationValue="54"/>
+        <MachineLinkIOMap Name="EAMAP10" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="10" LocationValue="60"/>
+        <MachineLinkIOMap Name="EAMAP11" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="11" LocationValue="66"/>
+        <MachineLinkIOMap Name="EAMAP12" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="12" LocationValue="72"/>
+        <MachineLinkIOMap Name="EAMAP13" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="13" LocationValue="78"/>
+        <MachineLinkIOMap Name="EAMAP14" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="14" LocationValue="84"/>
+        <MachineLinkIOMap Name="EAMAP15" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="15" LocationValue="90"/>
+        <MachineLinkIOMap Name="EAMAP16" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="16" LocationValue="96"/>
+        <MachineLinkIOMap Name="EAMAP17" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="17" LocationValue="102"/>
+        <MachineLinkIOMap Name="EAMAP18" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="18" LocationValue="108"/>
+        <MachineLinkIOMap Name="EAMAP19" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="19" LocationValue="114"/>
+        <MachineLinkIOMap Name="EAMAP20" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="20" LocationValue="120"/>
+        <MachineLinkIOMap Name="EAMAP21" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="21" LocationValue="126"/>
+        <MachineLinkIOMap Name="EAMAP22" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="22" LocationValue="132"/>
+        <MachineLinkIOMap Name="EAMAP23" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="23" LocationValue="138"/>
+        <MachineLinkIOMap Name="EAMAP24" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="24" LocationValue="144"/>
+        <MachineLinkIOMap Name="EAMAP25" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="25" LocationValue="150"/>
+        <MachineLinkIOMap Name="EAMAP26" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="26" LocationValue="156"/>
+        <MachineLinkIOMap Name="EAMAP27" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="27" LocationValue="162"/>
+        <MachineLinkIOMap Name="EAMAP28" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="28" LocationValue="168"/>
+        <MachineLinkIOMap Name="EAMAP29" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="29" LocationValue="174"/>
+        <MachineLinkIOMap Name="EAMAP30" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="30" LocationValue="180"/>
+        <MachineLinkIOMap Name="EAMAP31" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="31" LocationValue="186"/>
+        <MachineLinkIOMap Name="EAMAP32" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="32" LocationValue="192"/>
+        <MachineLinkIOMap Name="EAMAP33" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="33" LocationValue="198"/>
+        <MachineLinkIOMap Name="EAMAP34" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="34" LocationValue="204"/>
+        <MachineLinkIOMap Name="EAMAP35" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="35" LocationValue="210"/>
+        <MachineLinkIOMap Name="EAMAP36" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="36" LocationValue="216"/>
+        <MachineLinkIOMap Name="EAMAP37" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="37" LocationValue="222"/>
+        <MachineLinkIOMap Name="EAMAP38" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="38" LocationValue="228"/>
+        <MachineLinkIOMap Name="EAMAP39" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="39" LocationValue="234"/>
+        <MachineLinkIOMap Name="EAMAP40" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="40" LocationValue="240"/>
+        <MachineLinkIOMap Name="EAMAP41" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="41" LocationValue="246"/>
+        <MachineLinkIOMap Name="EAMAP42" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="42" LocationValue="252"/>
+        <MachineLinkIOMap Name="EAMAP43" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="43" LocationValue="258"/>
+        <MachineLinkIOMap Name="EAMAP44" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="44" LocationValue="264"/>
+        <MachineLinkIOMap Name="EAMAP45" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="45" LocationValue="270"/>
+        <MachineLinkIOMap Name="EAMAP46" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="46" LocationValue="276"/>
+        <MachineLinkIOMap Name="EAMAP47" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="47" LocationValue="282"/>
+        <MachineLinkIOMap Name="EAMAP48" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="48" LocationValue="288"/>
+        <MachineLinkIOMap Name="EAMAP49" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="49" LocationValue="294"/>
+        <MachineLinkIOMap Name="EAMAP50" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="50" LocationValue="300"/>
+        <MachineLinkIOMap Name="EAMAP51" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="51" LocationValue="306"/>
+        <MachineLinkIOMap Name="EAMAP52" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="52" LocationValue="312"/>
+        <MachineLinkIOMap Name="EAMAP53" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="53" LocationValue="318"/>
+        <MachineLinkIOMap Name="EAMAP54" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="54" LocationValue="324"/>
+        <MachineLinkIOMap Name="EAMAP55" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="55" LocationValue="330"/>
+        <MachineLinkIOMap Name="EAMAP56" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="56" LocationValue="336"/>
+        <MachineLinkIOMap Name="EAMAP57" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="57" LocationValue="342"/>
+        <MachineLinkIOMap Name="EAMAP58" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="58" LocationValue="348"/>
+        <MachineLinkIOMap Name="EAMAP59" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="59" LocationValue="354"/>
+        <MachineLinkIOMap Name="EAMAP60" ControllerNum="1" IOTag="AO" IONum="5" TriggerValue="60" LocationValue="360"/>
+      </IOMaps>
+      <PlugIns>
+        <HandlingPRO.HPCMachineLink/>
+      </PlugIns>
+      <MachineYaXb ParamA="0"/>
+    </Link>
+    <Link SourceID="57622" Kind="3" Name="StundenZeiger" ScaleX="0.03" ScaleY="0.3" Color="&amp;H0" Locked="-1" LocationY="-150.000" LocationZ="80.000" AxisVisible="0" AxisLocationW="-90.000" MotionControlType="1" IOSpeed="10000" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+      <ImgFilePath0>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath0>
+      <ImgFilePath1>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath1>
+      <ImgFilePath2>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath2>
+      <ImgFilePath3>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath3>
+      <ImgFilePath4>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath4>
+      <ImgFilePath5>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath5>
+      <Targets/>
+      <IOMaps>
+        <MachineLinkIOMap Name="EAMAP0" ControllerNum="1" IOTag="AO" IONum="4"/>
+        <MachineLinkIOMap Name="EAMAP1" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="1" LocationValue="6"/>
+        <MachineLinkIOMap Name="EAMAP2" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="2" LocationValue="12"/>
+        <MachineLinkIOMap Name="EAMAP3" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="3" LocationValue="18"/>
+        <MachineLinkIOMap Name="EAMAP4" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="4" LocationValue="24"/>
+        <MachineLinkIOMap Name="EAMAP5" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="5" LocationValue="30"/>
+        <MachineLinkIOMap Name="EAMAP6" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="6" LocationValue="36"/>
+        <MachineLinkIOMap Name="EAMAP7" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="7" LocationValue="42"/>
+        <MachineLinkIOMap Name="EAMAP8" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="8" LocationValue="48"/>
+        <MachineLinkIOMap Name="EAMAP9" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="9" LocationValue="54"/>
+        <MachineLinkIOMap Name="EAMAP10" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="10" LocationValue="60"/>
+        <MachineLinkIOMap Name="EAMAP11" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="11" LocationValue="66"/>
+        <MachineLinkIOMap Name="EAMAP12" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="12" LocationValue="72"/>
+        <MachineLinkIOMap Name="EAMAP13" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="13" LocationValue="78"/>
+        <MachineLinkIOMap Name="EAMAP14" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="14" LocationValue="84"/>
+        <MachineLinkIOMap Name="EAMAP15" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="15" LocationValue="90"/>
+        <MachineLinkIOMap Name="EAMAP16" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="16" LocationValue="96"/>
+        <MachineLinkIOMap Name="EAMAP17" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="17" LocationValue="102"/>
+        <MachineLinkIOMap Name="EAMAP18" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="18" LocationValue="108"/>
+        <MachineLinkIOMap Name="EAMAP19" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="19" LocationValue="114"/>
+        <MachineLinkIOMap Name="EAMAP20" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="20" LocationValue="120"/>
+        <MachineLinkIOMap Name="EAMAP21" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="21" LocationValue="126"/>
+        <MachineLinkIOMap Name="EAMAP22" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="22" LocationValue="132"/>
+        <MachineLinkIOMap Name="EAMAP23" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="23" LocationValue="138"/>
+        <MachineLinkIOMap Name="EAMAP24" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="24" LocationValue="144"/>
+        <MachineLinkIOMap Name="EAMAP25" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="25" LocationValue="150"/>
+        <MachineLinkIOMap Name="EAMAP26" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="26" LocationValue="156"/>
+        <MachineLinkIOMap Name="EAMAP27" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="27" LocationValue="162"/>
+        <MachineLinkIOMap Name="EAMAP28" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="28" LocationValue="168"/>
+        <MachineLinkIOMap Name="EAMAP29" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="29" LocationValue="174"/>
+        <MachineLinkIOMap Name="EAMAP30" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="30" LocationValue="180"/>
+        <MachineLinkIOMap Name="EAMAP31" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="31" LocationValue="186"/>
+        <MachineLinkIOMap Name="EAMAP32" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="32" LocationValue="192"/>
+        <MachineLinkIOMap Name="EAMAP33" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="33" LocationValue="198"/>
+        <MachineLinkIOMap Name="EAMAP34" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="34" LocationValue="204"/>
+        <MachineLinkIOMap Name="EAMAP35" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="35" LocationValue="210"/>
+        <MachineLinkIOMap Name="EAMAP36" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="36" LocationValue="216"/>
+        <MachineLinkIOMap Name="EAMAP37" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="37" LocationValue="222"/>
+        <MachineLinkIOMap Name="EAMAP38" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="38" LocationValue="228"/>
+        <MachineLinkIOMap Name="EAMAP39" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="39" LocationValue="234"/>
+        <MachineLinkIOMap Name="EAMAP40" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="40" LocationValue="240"/>
+        <MachineLinkIOMap Name="EAMAP41" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="41" LocationValue="246"/>
+        <MachineLinkIOMap Name="EAMAP42" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="42" LocationValue="252"/>
+        <MachineLinkIOMap Name="EAMAP43" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="43" LocationValue="258"/>
+        <MachineLinkIOMap Name="EAMAP44" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="44" LocationValue="264"/>
+        <MachineLinkIOMap Name="EAMAP45" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="45" LocationValue="270"/>
+        <MachineLinkIOMap Name="EAMAP46" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="46" LocationValue="276"/>
+        <MachineLinkIOMap Name="EAMAP47" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="47" LocationValue="282"/>
+        <MachineLinkIOMap Name="EAMAP48" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="48" LocationValue="288"/>
+        <MachineLinkIOMap Name="EAMAP49" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="49" LocationValue="294"/>
+        <MachineLinkIOMap Name="EAMAP50" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="50" LocationValue="300"/>
+        <MachineLinkIOMap Name="EAMAP51" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="51" LocationValue="306"/>
+        <MachineLinkIOMap Name="EAMAP52" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="52" LocationValue="312"/>
+        <MachineLinkIOMap Name="EAMAP53" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="53" LocationValue="318"/>
+        <MachineLinkIOMap Name="EAMAP54" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="54" LocationValue="324"/>
+        <MachineLinkIOMap Name="EAMAP55" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="55" LocationValue="330"/>
+        <MachineLinkIOMap Name="EAMAP56" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="56" LocationValue="336"/>
+        <MachineLinkIOMap Name="EAMAP57" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="57" LocationValue="342"/>
+        <MachineLinkIOMap Name="EAMAP58" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="58" LocationValue="348"/>
+        <MachineLinkIOMap Name="EAMAP59" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="59" LocationValue="354"/>
+        <MachineLinkIOMap Name="EAMAP60" ControllerNum="1" IOTag="AO" IONum="4" TriggerValue="60" LocationValue="360"/>
+      </IOMaps>
+      <PlugIns>
+        <HandlingPRO.HPCMachineLink/>
+      </PlugIns>
+      <MachineYaXb ParamA="0"/>
+    </Link>
+    <Link SourceID="57684" Kind="3" Name="Ziffernblatt" ScaleY="0.001" Color="&amp;HA5FF" Locked="-1" LocationY="51.000" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+      <ImgFilePath0>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath0>
+      <ImgFilePath1>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath1>
+      <ImgFilePath2>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath2>
+      <ImgFilePath3>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath3>
+      <ImgFilePath4>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath4>
+      <ImgFilePath5>
+        <CADFile OptimizeForSpeed="-1"/>
+      </ImgFilePath5>
+      <Targets/>
+      <PlugIns>
+        <HandlingPRO.HPCMachineLink/>
+      </PlugIns>
+      <Links>
+        <Link SourceID="57685" Kind="0" Name="Ziffer_12" ScaleX="0.02" ScaleY="0.01" ScaleZ="0.05" Color="&amp;H0" Locked="-1" LocationZ="475.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57686" Kind="0" Name="Ziffer_6" ScaleX="0.02" ScaleY="0.01" ScaleZ="0.05" Color="&amp;H0" Locked="-1" LocationZ="-425.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57687" Kind="0" Name="Ziffer_3" ScaleX="0.05" ScaleY="0.01" ScaleZ="0.02" Color="&amp;H0" Locked="-1" LocationX="-450.000" LocationZ="10.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57688" Kind="0" Name="Ziffer_9" ScaleX="0.05" ScaleY="0.01" ScaleZ="0.02" Color="&amp;H0" Locked="-1" LocationX="450.000" LocationZ="10.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57689" Kind="3" Name="Dot_11" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="225.000" LocationZ="389.710" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57690" Kind="3" Name="Dot_10" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="389.710" LocationZ="225.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57691" Kind="3" Name="Dot_7" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="225.000" LocationZ="-389.710" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57692" Kind="3" Name="Dot_8" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="389.710" LocationZ="-225.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57693" Kind="3" Name="Dot_4" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="-389.710" LocationZ="-225.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57694" Kind="3" Name="Dot_5" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="-225.000" LocationZ="-389.710" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57695" Kind="3" Name="Dot_2" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="-389.710" LocationZ="225.000" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+        <Link SourceID="57696" Kind="3" Name="Dot_1" ScaleX="0.03" ScaleY="0.01" Color="&amp;H0" Locked="-1" LocationX="-225.000" LocationZ="389.710" AxisLocked="-1" AxisDirection="1" SignalConnectionUtility.SCCIOLinkMotion="3;1;0;100;0;0;0;0;2" ConvFeedRate1="50" ConvFeedDuration1="10" ConvSpeedForPQLog1="200" ConvParentPartOffsetUsage="0" PartCreateMethod="0" FixedDistance="0">
+          <ImgFilePath0>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath0>
+          <ImgFilePath1>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath1>
+          <ImgFilePath2>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath2>
+          <ImgFilePath3>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath3>
+          <ImgFilePath4>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath4>
+          <ImgFilePath5>
+            <CADFile OptimizeForSpeed="-1"/>
+          </ImgFilePath5>
+          <Targets/>
+          <PlugIns>
+            <HandlingPRO.HPCMachineLink/>
+          </PlugIns>
+          <MachineYaXb ParamA="0"/>
+        </Link>
+      </Links>
+      <MachineYaXb ParamA="0"/>
+    </Link>
+  </Links>
+  <MachineYaXb ParamA="0"/>
+  <PlugIns>
+    <HandlingPRO.HPCMachineLink/>
+  </PlugIns>
+</Machine>

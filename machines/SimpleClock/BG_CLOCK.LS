@@ -1,0 +1,39 @@
+/PROG  BG_CLOCK
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 484;
+CREATE		= DATE 21-07-15  TIME 14:00:58;
+MODIFIED	= DATE 21-07-15  TIME 15:31:00;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 13;
+MEMORY_SIZE	= 836;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/MN
+   1:  R[151]=$SYS_TIME.$HOUR ;
+   2:  IF (R[151]>12),R[151]=(R[151]-12) ;
+   3:  R[151]=(((R[151]*30)+((R[152]/60)*30))/6) ;
+   4:  R[135]=R[152]    ;
+   5:  R[152]=$SYS_TIME.$MINUTE ;
+   6:  IF (R[152]<>R[135]),R[136]=R[153] ;
+   7:  R[153]=$FAST_CLOCK ;
+   8:  R[153]=R[153]/1000    ;
+  10:  R[153]=R[153] MOD 60    ;
+   8:  R[136]=R[136]/1000    ;
+  10:  R[136]=R[136] MOD 60 ;
+  9:  R[153]=R[153]-R[136]    ;
+  
+  11:  AO[4]=R[151] ;
+  12:  AO[5]=R[152] ;
+  13:  AO[6]=R[153] ;
+/POS
+/END
