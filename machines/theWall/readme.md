@@ -6,15 +6,17 @@ Machine definition file (*.def) to write letters to a "screen". This screen is c
 The chars are written by using an analog output.
 Each output represents exactly one char.
 
+## How to 
 0. configure you Analog outputs (1-16).
     - ![Alt text](AnalogOUT_config.jpg)
 
-1. Copy this folder ('thewall') to machines folder inside Roboguide project.
+1. Copy folder 'thewall' to machines folder inside Roboguide project.
     - ![Alt text](folder_to_put.jpg)
 
 2. Load the machine definition file "TheWall_2x8.def"
+  - Add machine --> definition file
    - This might take some time.
-   - there will be some errors pop up.(ignore them)
+   - there will some error dialogs pop up.(ignore them)
    - ![Alt text](Error_IO.JPG)
 
 3. execute programs only in automatic mode
@@ -26,11 +28,13 @@ Each output represents exactly one char.
   - ![Alt text](performance_issue.gif)
 
 
+## MORE
 
-The definition file is a XML file.
-Currently only ASCII chars  from 033-092 are supported.
 
-So you can search and replace the colors and or names...
+- Currently only ASCII chars  from 033-092 are supported.(to keep the performance high)
+- We will create some progs for easy usage soon
+- The definition file is a XML file.
+  - you can search and replace the colors:
 
-- YELLOW:Color="&amp;HFFFF"
-- RED: Color="&amp;HFF"
+    - YELLOW:Color="&amp;HFFFF"
+    - RED: Color="&amp;HFF"
