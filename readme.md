@@ -21,4 +21,4 @@ Roboguide machine templates.
 ## TODO: RG_special
 
 - Informations about differences between virtual and actual controller.
-- Also some hints when woring with RG
+- Also some hints when working with RG
