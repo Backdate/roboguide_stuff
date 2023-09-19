@@ -32,7 +32,7 @@ Each output represents exactly one char.
 
 
 - Currently only ASCII chars  from 033-092 are supported.(to keep the performance high)
-- check 'STRING_TO_AO' rpgr example bhow to write sztrings
+- check 'STRING_TO_AO' prog example how to write strings
   - uses ORD2REG prog  
     - [check our TP-Tools](https://github.com/Backdate/TP-Tools/tree/main/2reg)
 - The definition file is a XML file.
